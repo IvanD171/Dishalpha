@@ -1,0 +1,30 @@
+#layer1 {
+    width: 97%; 
+    padding: 10px;
+    background: #fc0;
+    margin: auto;
+    transition-duration: 1s;
+    position: sticky;
+    top: 0;
+    } 
+    #layer1:hover{
+      border-radius: 30px;
+      transition-duration: 1s;
+    }
+    #logo{
+      width: 100px;
+      height: 100px;
+      margin-left: 70px;
+      margin-bottom: -33px;
+      margin-top: -30px;
+      display: inline-block;
+    }
+       #footer {
+    width: 98%;
+    background: #3ca; 
+    padding: 10px;
+    height: 50px;
+    margin: auto;
+    border-top: solid white 5px;
+    border-width: 10px;
+    } 

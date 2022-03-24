@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dishalpha Головна сторінка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styleall.css">
+	<style type="text/css">
+    body{
+      background-image: url(fon_gradient_volna_207449_3840x2400-2.jpg);
+    }
+   #navigation {
+    width: 97%; 
+    padding: 10px;
+    background: #fc0;
+    margin: auto;
+    transition-duration: 1s;
+    position: sticky;
+    top: 0;
+    } 
+    #navigation:hover{
+      border-radius: 30px;
+      transition-duration: 1s;
+    }
+   #layer2 {
+    width: 98%;
+    height: 400px; 
+    background: #cc0;
+    padding: 10px;
+    border-radius: 30px;
+    margin: auto;
+    }
+   #layer3 {
+    width: 98%;
+    background: #3ca; 
+    padding: 10px;
+    height: 300px; 
+    margin: auto;
+   } 
+    a{
+      font-family: Caveat;
+      font-size: 30px;
+      outline: none;
+      text-decoration: none;
+      color: black;
+    }
+    .menu{
+      border: solid black;
+      border-radius: 7px;
+      background-color: beige;
+      margin-left: 100px;
+      transition: 0.5s ease-in-out;
+    }
+    .menu:hover{
+      transform: scale(1.2,1.2);
+      transition: 0.3s ease-in-out;
+    }
+    .inlinef{
+      display: inline-block;
+    }
+    #la{
+      height: 200px;
+      width: 200px;
+      margin-left: 520px;
+      margin-top: -50px;
+    }
+    .about{
+      font-family: Caveat;
+      font-size: 30px;
+      border-top: 10px solid white;
+      border-bottom: 10px solid white;
+      padding: 20px;
+    }
+    .title1{
+      font-family: Caveat;
+      font-size: 40px;
+      margin-left: 500px;
+      margin-top: -35px;
+    }
+    .interfood{
+      border: 3px solid beige;
+      height: 200px;
+      width: 300px;
+      margin-top: -15px;
+      margin-left: 80px;
+      transition-duration: 0.7s;
+    }
+    .interfood:hover{
+       box-shadow:
+    1px 1px #fbb582,
+    2px 2px #fbb582,
+    3px 3px #fbb582,
+    4px 4px #fbb582,
+    5px 5px #fbb582,
+    6px 6px #fbb582,
+    7px 7px #fbb582;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+    }
+    b{
+      align-content: center;
+      font-size: 50px;
+    }
+    #stravy{
+      text-align: center;
+      font-size: 45px;
+      font-family: Caveat;
+      margin-top: 1px;
+      border-bottom: 5px double white;
+    }
+    #title2{
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navigation">
+    <a href="index.html"><img id="logo" src="Кастрюля.svg"></a>
+    <div class="inlinef"><button class="menu"><a href="Мʼясні та рибні страви.html">М'ясні та рибні страви</a></button></div>
+    <div class="inlinef"><button class="menu"><a href="Супи.html">Супи</a></button></div>
+    <div class="inlinef"><button class="menu"><a href="Десерти.html">Десерти</a></button></div>
+    <div class="inlinef"><button class="menu"><a href="Салати.html">Салати</a></button></div>
+  </nav><br>
+  <div id="layer2"><img id="la" src="Кастрюля.svg">
+    <h1 class="title1"><b>DISHALPHA</b></h1>
+    <p class="about wow fadeInDown" data-wow-duration="1.2s"><b>Про сайт</b><br>
+      Цей сайт допоможе вам приготувати смачні страви, швидко та з радістю. Ми пропонуємо рецепти та кулінарні поради для домашніх кухарів. Допомога у створенні «кухонних перемог» – це те, чим ми займаємось.
+    </p></div><br>
+  <div id="layer3">
+    <h3 id="stravy">Найпопулярніші страви на сайті</h3>
+    <a href="Борщ рецепт.html"><img class="interfood wow fadeInUp" data-wow-delay="0.6s" data-wow-iteration="1" src="Борщ.jpg"></a>
+    <a href="Рецепт Штруделя з вишнею.html"><img class="interfood wow fadeInUp" data-wow-delay="0.8s" data-wow-iteration="1" src="strudelFrench.jpg"></a>
+    <a href="Рецепт Салат грецький.html"><img class="interfood wow fadeInUp" data-wow-delay="1s" data-wow-iteration="1" src="Салат грецький.jpg"></a>
+  </div><br>
+  <div id="footer" class="wow slideInLeft" data-wow-duration="1s">
+    <h3 id="title2">Контактна інформація: dishalpha.co@gmail.com</h3>
+  </div><br>
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <script type="text/javascript" src="wow.min.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
+</body>
+</html>
